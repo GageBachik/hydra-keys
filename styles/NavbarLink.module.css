@@ -1,0 +1,9 @@
+.halfBorderBottom {
+  padding-bottom: 4px;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, #3f3d56 50%, transparent 50%) 100% 1;
+}
+
+[data-theme='dark'] .halfBorderBottom {
+  border-image: linear-gradient(to right, #e4e4e4 50%, transparent 50%) 100% 1;
+}
